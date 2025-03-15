@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="745CE71D-648D-69A5-D3D7-077D19E2E909" name="returns">
+<createdBy>mosku</createdBy>
+<createdTime>2025-03-15 17:29:12 UTC</createdTime>
+<generatorID>70C37000-C874-1F60-93AA-69D2C8838C90</generatorID>
+<ownerDesignName>lab021</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="order_id" id="19F2F619-D2DB-C2D8-1D95-C903F852D3DE">
+<createdBy>mosku</createdBy>
+<createdTime>2025-03-15 17:29:12 UTC</createdTime>
+<generatorID>0B075B57-094B-81D3-30A6-7CE629A74898</generatorID>
+<ownerDesignName>lab021</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="returned" id="00850420-8AA1-FE09-76B3-1CA4F4ECBB1A">
+<createdBy>mosku</createdBy>
+<createdTime>2025-03-15 17:29:12 UTC</createdTime>
+<generatorID>96B313DC-D17E-115C-E7B6-7D3446DB6DB5</generatorID>
+<ownerDesignName>lab021</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="returns_ID" id="4559C905-4E30-2BA6-9AF8-809309E5DFAD">
+<createdBy>mosku</createdBy>
+<createdTime>2025-03-15 17:29:12 UTC</createdTime>
+<ownerDesignName>lab021</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC8E8444-19FB-E094-7197-9B7F2BEFD0BC" name="returns_PK">
+<createdBy>mosku</createdBy>
+<createdTime>2025-03-15 17:29:12 UTC</createdTime>
+<ownerDesignName>lab021</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="4559C905-4E30-2BA6-9AF8-809309E5DFAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
