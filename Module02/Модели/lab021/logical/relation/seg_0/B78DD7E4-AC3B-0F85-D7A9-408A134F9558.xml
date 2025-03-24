@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="order_id" directorySegmentName="seg_0" id="B78DD7E4-AC3B-0F85-D7A9-408A134F9558">
+<createdBy>mosku</createdBy>
+<createdTime>2025-03-15 17:23:13 UTC</createdTime>
+<ownerDesignName>lab021</ownerDesignName>
+<engineerTo>
+<item key="A2610155-0E86-8886-7D66-C3D904F08586" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>70C37000-C874-1F60-93AA-69D2C8838C90</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>03BF72DB-EC4B-ED52-049A-FE71039A156D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="date" id="175500D0-7CFD-10EA-6EE6-FAD21D800037">
+<createdBy>mosku</createdBy>
+<createdTime>2025-03-15 17:23:51 UTC</createdTime>
+<ownerDesignName>lab021</ownerDesignName>
+<engineerTo>
+<item key="A2610155-0E86-8886-7D66-C3D904F08586" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>
