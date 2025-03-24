@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.logical.LogicalDesign>
-   <object objectType="Entity" objectID="03BF72DB-EC4B-ED52-049A-FE71039A156D" name="orders" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="5F6D574B-1DE7-5F83-A004-F0C0CF02ABFD" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Entity" objectID="A0AE50BB-75EE-721C-46E4-B6AD01CE6DB8" name="people" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="5F6D574B-1DE7-5F83-A004-F0C0CF02ABFD" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Entity" objectID="70C37000-C874-1F60-93AA-69D2C8838C90" name="returns" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="5F6D574B-1DE7-5F83-A004-F0C0CF02ABFD" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Relation" objectID="B78DD7E4-AC3B-0F85-D7A9-408A134F9558" name="order_id" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="5F6D574B-1DE7-5F83-A004-F0C0CF02ABFD" propertySourceId="70C37000-C874-1F60-93AA-69D2C8838C90" propertyTargetId="03BF72DB-EC4B-ED52-049A-FE71039A156D"/>
-   <object objectType="Relation" objectID="8D53E4FD-F3DD-F48E-1F3C-3664251E9CC5" name="region" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="5F6D574B-1DE7-5F83-A004-F0C0CF02ABFD" propertySourceId="A0AE50BB-75EE-721C-46E4-B6AD01CE6DB8" propertyTargetId="03BF72DB-EC4B-ED52-049A-FE71039A156D"/>
-</oracle.dbtools.crest.model.design.logical.LogicalDesign>
